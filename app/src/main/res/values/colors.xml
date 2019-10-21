@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3e5c8d</color>
+    <color name="colorPrimaryDark">#0e3651</color>
+    <color name="colorAccent">#3b5998</color>
+    <color name="white">#ffffff</color>
+    <color name="error_red">#f44236</color>
+    <color name="orange">#ff9331</color>
+    <color name="white_faded">#66d4d4d4</color>
+    <color name="counter_text_color">#323a29</color>
+    <color name="blueishgrey">#c9c6c6</color>
+    <color name="slidingtabgrey">#b3b0b0</color>
+    <color name="black">#000</color>
+    <color name="green">#317635</color>
+    <color name="lightblue">#6297dc</color>
+    <color name="fbutton_color_concrete">#95a5a6</color>
+    <color name="fbutton_color_asbestos">#7f8c8d</color>
+</resources>
