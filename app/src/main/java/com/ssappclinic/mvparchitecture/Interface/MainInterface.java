@@ -14,6 +14,6 @@ public interface MainInterface {
        String getData();
    }
     interface Presenter{
-        void onClick(android.view.View view);
+        void onClick();
     }
 }

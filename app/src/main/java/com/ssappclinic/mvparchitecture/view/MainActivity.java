@@ -14,11 +14,12 @@ public class MainActivity extends AppCompatActivity implements View {
      public Button button;
      protected TextView displaytext;
      private Presenter mPresenter;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-       mPresenter=new MainActivityPresenter(this);
+       mPresenter = new MainActivityPresenter(this);
     }
 
     @Override
@@ -28,14 +29,14 @@ public class MainActivity extends AppCompatActivity implements View {
         button.setOnClickListener(new android.view.View.OnClickListener() {
             @Override
             public void onClick(android.view.View view) {
-                mPresenter.onClick(view);
+                mPresenter.onClick();
             }
         });
     }
 
     @Override
     public void setViewData(String data) {
-displaytext.setText(data);
+       displaytext.setText(data);
     }
 
 }
